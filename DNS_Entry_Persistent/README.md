@@ -1,7 +1,7 @@
 # Make Linux /etc/resolv.conf DNS entries persistent in RHEL 7.x, SUSE 11&12, Ubuntu, CentOS 7.x
 This blog post explains about steps by step configurations of making DNS entries persistent using the /etc/resolv.conf file, With the new versions of Linux Operating Systems we have observed that /etc/resolv.conf is no more manually editable and is maintained by NetworkManager and or netconfig.  This blog explains about the steps for taking over control of /etc/resolv.conf file with different flavors and version of Linux.  Follow these steps to make DNS entries persistent on your linux operating system.
 
-#   Steps to make DNS Entry persistent in RedHat Enterprise Linux Server 7.7 and 7.8
+#   Steps to make DNS Entry persistent in RedHat Enterprise Linux Server 7.7/7.8 & CentOS 7.7/7.8
 
    1.  Edit the file /etc/NetworkManager/NetworkManager.conf and add the entry dns=none just after the [main] line in the file
 
